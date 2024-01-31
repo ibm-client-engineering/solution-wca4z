@@ -1,18 +1,18 @@
 module.exports = {
-  pathPrefix: "/solution-[Insert-Solution-Name]",
+  pathPrefix: "/solution-wca4z",
   siteMetadata: {
-    title: '[Insert Solution Name]',
-    description: 'IBM Client Engineering | [Insert Solution Name]',
-    keywords: 'IBM, Client Engineering, [Insert Solution Name]',
+    title: 'solution-wca4z',
+    description: 'IBM Client Engineering | Watsonx Code Assist for Z',
+    keywords: 'IBM, Client Engineering, wca4z, watsonx',
   },
   plugins: [
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'IBM Client Engineering | [Insert Solution Name]',
+        name: 'IBM Client Engineering | Watsonx Code Assist for Z',
         icon: 'src/images/favicon.svg',
-        short_name: '[Insert Solution Name]',
-        start_url: '/solution-[Insert-Solution-Name]',
+        short_name: 'solution-wca4z',
+        start_url: '/solution-wca4z',
         background_color: '#ffffff',
         theme_color: '#161616',
         display: 'browser',
@@ -28,7 +28,7 @@ module.exports = {
         isSwitcherEnabled: false,
         titleType: 'prepend',
         repository: {
-          baseUrl: 'https://github.com/ibm-client-engineering/solution-[Insert-Solution-Name]',
+          baseUrl: 'https://github.com/ibm-client-engineering/solution-wca4z',
         },
       },
     },
